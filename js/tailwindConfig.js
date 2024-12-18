@@ -6,11 +6,11 @@ tailwind.config = {
                 valorant: ['Rajdhani', 'sans-serif'],
             },
             backgroundImage: {
-                'fondoClear': "url('../media/fondoClear.webp')",
-                'fondoDark': "url('../media/fondoDark.webp')",
-                'cartelClaro': "url('../media/cartelClaro.jpg')",
-                'cartelDark': "url('../media/cartelDark.png')",
-                'logoLargo': "url('../media/logoLargo.png')",
+                'fondoClear': "url('./media/fondoClear.webp')",
+                'fondoDark': "url('./media/fondoDark.webp')",
+                'cartelClaro': "url('./media/cartelClaro.jpg')",
+                'cartelDark': "url('./media/cartelDark.png')",
+                'logoLargo': "url('./media/logoLargo.png')",
             },
             boxShadow: {
                 'custom-rose-b': '0px 5px 5px 0px rgba(244, 63, 94, 0.5)',
