@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+    <body>
+        <header class="fixed w-full top-0 lg:px-44 xl:px-64 2xl:px-80 flex justify-between bg-slate-900 dark:bg-black shadow-custom-slate-b dark:shadow-custom-rose-b text-white text-xl font-valorant font-bold overflow-hidden z-50">
+            <div class="w-full sm:w-max grid grid-cols-3 sm:grid-cols-2">
+                <div class="sm:hidden h-full flex items-center pl-4">
+                    <button id="btnHamburguesa" class="w-max h-max py-2 px-3 rounded-xl bg-slate-900 dark:bg-black">
+                        <i class="fa fa-bars text-2xl text-white"></i>
+                    </button>
+                </div>
+                <div class="h-full py-2 px-4 flex items-center justify-center">
+                    <a href="./index.html" class="w-max h-max"><img src="./media/logo_transparent.png" alt="logo largo" class="w-12"></a>
+                </div>
+                <div class="h-full flex items-center justify-end sm:justify-center pr-4 sm:pr-0">
+                    <button id="selectorTema" class="w-10 h-6 bg-rose-500 dark:bg-gray-600 rounded-full relative">
+                        <span id="selectorCirculo" class="w-4 h-4 bg-slate-900  rounded-full absolute top-1 left-1 dark:translate-x-4 transition-transform duration-300"></span>
+                    </button>
+                </div>
+            </div>
+            <nav id="menuHamburguesa" class="sm:hidden fixed w-max overflow-hidden bg-slate-900 dark:bg-black dark:border dark:border-rose-500 text-white font-bold transform -translate-x-full top-20 transition-transform duration-300">
+                <ul class="w-max grid grid-rows-3 text-center">
+                    <li class="h-12 grid hover:bg-rose-500 group">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-14" href="./heroes.html">
+                            Heroes
+                        </a>
+                    </li>
+                    <li class="h-12 grid hover:bg-rose-500 group">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-14" href="./mapas.html">
+                            Mapas 
+                        </a>
+                    </li>
+                    <li class="h-12 grid hover:bg-rose-500 group">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-14" href="./mapas.html">
+                            Armas
+                        </a>
+                    </li>
+                </ul>
+            </nav> 
+            <nav id="menuGrande" class="hidden sm:grid">
+                <ul class="w-max h-full grid grid-cols-3 text-center">
+                    <li class="grid hover:bg-rose-500">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-6" href="./heroes.html">
+                            Heroes 
+                        </a>
+                    </li>
+                    <li class="grid hover:bg-rose-500 group">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-6" href="./mapas.html">
+                            Mapas 
+                        </a>
+                    </li>
+                    <li class="grid hover:bg-rose-500 group">
+                        <a class="link-menu w-full h-full grid items-center py-2 px-6" href="./mapas.html">
+                            Armas 
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+</html>

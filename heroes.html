@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta dir="ltr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="description" content="">
+        <meta name="autor" content="Victor Mora">
+        <meta name="date" content="08-12-2024">
+        <title>Valorant - Inicio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/tailwindConfig.js"></script>
+        <script src="./js/navFooter.js"></script>
+        <script type="module" src="./js/heroes.js" defer></script>
+    </head>
+
+    <body class="h-dvh flex flex-col">
+        <main class="flex-grow overflow-hidden font-valorant font-bold bg-cartelClaro dark:bg-cartelDark bg-cover bg-no-repeat bg-center dark:text-white">
+            <section class="h-full grid grid-rows-[auto_1fr] gap-10 pt-28 bg-slate-300 bg-opacity-50 dark:bg-black dark:bg-opacity-80">
+                <div class="h-full grid sm:grid-cols-3 items-center">
+                    <button id="btnIzq" class="hidden sm:grid justify-self-end items-center w-16 h-16 rounded-full bg-slate-900 dark:bg-slate-300 hover:bg-rose-500 dark:hover:bg-slate-500 text-white dark:text-black">
+                        <i class="fa fa-arrow-left text-5xl"></i>
+                    </button>
+                    <h1 id="nameHeroe" class="w-max h-max justify-self-center text-5xl md:text-6xl lg:text-7xl">Heroes</h1>
+                    <button id="btnDer" class="hidden sm:grid justify-self-start items-center w-16 h-16 rounded-full bg-slate-900 dark:bg-slate-300 hover:bg-rose-500 dark:hover:bg-slate-500 text-white dark:text-black">
+                        <i class="fa fa-arrow-right text-5xl"></i>
+                    </button>
+                </div>
+                <div id="containerHeroe" class="w-full h-max sm:py-2 xl:mt-4 grid sm:grid-rows-2 2xl:grid-rows-1 gap-y-10 grid-flow-col items-center overflow-auto overflow-y-hidden sm:overflow-hidden snap-x snap-mandatory transition-transform duration-500 ease-in-out"></div>
+            </section>
+        </main>
+    </body>
+</html>

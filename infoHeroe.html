@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta dir="ltr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="description" content="">
+        <meta name="autor" content="Victor Mora">
+        <meta name="date" content="08-12-2024">
+        <title>Valorant - Info Heroe</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/tailwindConfig.js"></script>
+        <script src="./js/navFooter.js"></script>
+        <script type="module" src="./js/infoHeroe.js" defer></script>
+    </head>
+
+    <body class="h-dvh flex flex-col">
+        <main class="flex-grow overflow-hidden font-valorant font-bold bg-cartelClaro dark:bg-cartelDark bg-cover bg-no-repeat bg-center dark:text-white">
+            <section class="h-full relative grid grid-rows-[auto_1fr] gap-0 sm:px-20 md:px-32 lg:px-48 xl:px-64 2xl:px-72 pt-24 bg-slate-300 bg-opacity-50 dark:bg-black dark:bg-opacity-80">
+                <h1 id="titulo" class="w-max justify-self-center text-5xl"></h1>
+
+                <div id="containerInfo" class="relative py-4 flex-grow items-center w-full rounded flex flex-col gap-8 md:gap-10 overflow-hidden">
+                    <div id="img" class="xl:absolute xl:-left-56 2xl:-left-20 xl:-top-20 rounded overflow-hidden w-40 sm:w-80 xl:w-[40rem] 2xl:w-[48rem]"></div>
+                    
+                    <h2 class="xl:absolute xl:right-44 text-center text-lg sm:text-2xl px-6 font-bold rounded bg-slate-900 dark:bg-rose-500 text-white">
+                        Habilidades
+                    </h2>
+                    <div class="xl:absolute xl:right-0 xl:top-16 xl:w-max w-full items-center grid overflow-auto">
+                        <div id="habilidades" class="w-full xl:w-[32rem] xl:h-full px-8 py-2 flex flex-row flex-wrap items-center justify-evenly gap-4 text-justify xl:text-2xl snap-x snap-mandatory transition-transform duration-500 ease-in-out"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

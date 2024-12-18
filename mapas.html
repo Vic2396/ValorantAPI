@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta dir="ltr">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="description" content="">
+        <meta name="autor" content="Victor Mora">
+        <meta name="date" content="08-12-2024">
+        <title>Valorant - Mapas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="./js/tailwindConfig.js"></script>
+        <script src="./js/navFooter.js"></script>
+        <script src="./js/mapas.js" defer></script>
+    </head>
+
+    <body class="h-dvh flex flex-col">
+        <main class="flex-grow  overflow-hidden font-valorant font-bold bg-cartelClaro dark:bg-cartelDark bg-cover bg-no-repeat bg-center dark:text-white">
+            <section class="h-full grid grid-rows-[auto_1fr] gap-3 pt-28 pb-4 bg-slate-300 bg-opacity-50 dark:bg-black dark:bg-opacity-80">
+                <h1 class="w-max h-max justify-self-center text-5xl md:text-6xl lg:text-7xl">
+                    Mapas
+                </h1>
+                <div id="containerMap" class="h-full w-full px-4 sm:px-8 lg:px-20 xl:px-36 2xl:px-56 py-2 grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-3 gap-8 overflow-auto"></div>
+            </section>
+        </main>
+    </body>
+</html>
